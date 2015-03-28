@@ -184,15 +184,20 @@ div.heading-block div.inline-div {
 	display: inline-block;
 }
 div.heading-block div.main-title {
-	color: red;
+	color: #ca0813;
 	font-size: 3em;
 	letter-spacing: 0.1em;
 	margin-bottom: 0.1em;
 	padding-left: 5px;
+	display: inline-block;
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
 }
 
 div.heading-block div.sub-title {
-	color: green;
+	color: black;
+	display: inline-block;
 	padding-left: 5px;
 }
 
