@@ -1,0 +1,1 @@
+This is the `GET <http://get.readthedocs.org>`_ website project, providing the documenation for GET and related projects. The live version of this documentation is available at: http://get.readthedocs.org/.
