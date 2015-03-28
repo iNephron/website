@@ -7,24 +7,23 @@
 The GET Suite of Tools
 ======================
 
-GET is a suite of tools based around the concept of modelling generalised epithelial transport. The GET framework makes extensive use of `CellML <http://cellml.org>`_ and `SED-ML <http://sed-ml.org>`_, and so this suite includes some generic software for working with these standards.
-
-Welcome to the documentation for the Generalised Epithelial Transport (GET) project. Here we will endeavour to document the various aspects of the GET project and provide tutorials on the use of this suite of tools. Currently the documentation for the :ref:`Physiome Modeller <physiome-modeller>` is hosted here as that tool makes use of the GET framework, but as the GET tools evolve beyond epithelial cell transport we imagine the distinction between GET and Physiome Modeller will become blurred and we will refactor into a single project at that stage.
+GET is a suite of tools based around the concept of modelling generalised epithelial transport. The GET framework makes extensive use of `CellML <http://cellml.org>`_ and `SED-ML <http://sed-ml.org>`_, and so this suite includes some generic software for working with these standards which are included here. Demonstrations of the ideas and tools being promoted by the GET project are also listed below.
 
 Contents:
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 1
    :titlesonly:
 
    introduction
+   csim/index
    PhysiomeModeller/index
    glossary
-   todo
 
 .. toctree::
    :hidden:
    
+   todo
    README
    
 
@@ -32,6 +31,7 @@ Contents:
 Indices and tables
 ==================
 
+* :ref:`todo`
 * :ref:`genindex`
 * :ref:`modindex`
 * :ref:`search`
