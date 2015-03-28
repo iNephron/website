@@ -15,11 +15,12 @@ body {
     background-color: #e6e8f0;
     color: black;
     padding: 0;
-    border: 1px solid #aaa;
-
+    /*border: 1px solid #ca0813;*/
     margin: 0px 80px 0px 80px;
     min-width: 740px;
 }
+
+/* cellml red: #CA0813 */
 
 a {
     /*color: #d0670a; */
@@ -158,8 +159,7 @@ pre a {
 div.document {
     background-color: white;
     text-align: left;
-    background-image: url(contents.png);
-    background-repeat: repeat-x;
+    border: 1px solid #ca0813;
 }
 
 /*
@@ -173,7 +173,7 @@ div.clearer {
 }
 
 div.heading-block {
-	background-color: white; 
+	/*background-color: white;*/ 
 	text-align: left;
 	padding: 10px 10px 15px 15px;
 	font-family: Verdana, sans-serif;
@@ -201,11 +201,12 @@ div.related h3 {
 }
 
 div.related ul {
-    background-image: url(navigation.png);
+    /*background-image: url(navigation.png);*/
     height: 2em;
     list-style: none;
-    border-top: 1px solid #ddd;
-    border-bottom: 1px solid #ddd;
+    /*border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;*/
+    background-color: #ca0813;
     margin: 0;
     padding-left: 10px;
 }
@@ -227,7 +228,7 @@ div.related ul li a {
     padding: 0 5px 0 5px;
     line-height: 1.75em;
     /*color: #EE9816; */
-    color: #93020f;
+    color: #000;
 }
 
 div.related ul li a:hover {
