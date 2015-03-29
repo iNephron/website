@@ -14,4 +14,8 @@ This tool is based on the original `CellMLSimulator <http://cellml.sourceforge.n
    :maxdepth: 1
    :titlesonly:
 
+   release-notes
+   usingCLI
+   usingLibCsim
+   building-csim
    summary-description
