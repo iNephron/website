@@ -9,21 +9,23 @@
 
 {% block relbar1 %}
 
-<!-- <div class="heading-block">
-<a href="{{ pathto('index') }}"><div class="inline-div"><img src="{{
-pathto("_static/GET-logo-small.png", 1) }}" border="0" alt="GET logo"/></div><div class="inline-div"><div class="main-title">GET</div>
-<div class="sub-title">Generalised<br/>Epithelial<br/>Transport</div></div></a>
-</div> -->
 <div class="heading-block">
-<a href="{{ pathto('index') }}">
 	<table>
 		<tr>
-			<td valign="middle"><img src="{{pathto("_static/GET-logo-small.png", 1) }}" border="0" alt="GET logo"/></td>
-			<td valign="middle"><div class="main-title">GET</div></td>
-			<td valign="middle" class="left-bracket"><div class="sub-title">Generalised<br/>Epithelial<br/>Transport</div></td>
+			<td valign="middle" class="small-width"><a href="{{ pathto('index') }}">
+				<img src="{{pathto("_static/GET-logo-small.png", 1) }}" border="0" alt="GET logo"/>
+			</a></td>
+			<td valign="middle" class="small-width"><a href="{{ pathto('index') }}">
+				<div class="main-title">GET</div>
+			</a></td>
+			<td valign="middle" class="small-width left-bracket"><a href="{{ pathto('index') }}">
+				<div class="sub-title">Generalised<br/>Epithelial<br/>Transport</div>
+			</a></td>
+			<td valign="middle" class="large-width">
+				<a href="http://virtualrat.org"><img src="{{pathto("_static/VPR_Logo_4-small.jpeg", 1) }}" border="0" alt="VPR logo"/></a>
+			</td>
 		</tr>
 	</table>
-</a>
 </div>
 {{ super() }}
 {% endblock %}

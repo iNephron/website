@@ -173,7 +173,7 @@ div.clearer {
 }
 
 div.heading-block {
-	/*background-color: white;*/ 
+	background-color: white; 
 	text-align: left;
 	padding: 10px 10px 15px 15px;
 	font-family: Verdana, sans-serif;
@@ -201,8 +201,17 @@ div.heading-block div.sub-title {
 	/*padding-left: 5px;*/
 }
 
-div.heading-block a table tr td.left-bracket {
+div.heading-block td.left-bracket {
 	border-left: 1px solid #ca0813;
+}
+
+div.heading-block td.small-width {
+	width: 5%;
+}
+
+div.heading-block td.large-width {
+	/*width: 100%;*/
+	text-align: right;
 }
 
 div.related h3 {
