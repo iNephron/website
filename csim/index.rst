@@ -10,6 +10,10 @@ The goal of this project is to produce a minimal stand-alone simulation tool for
 
 This tool is based on the original `CellMLSimulator <http://cellml.sourceforge.net>`_ `[1] <http://dx.doi.org/10.1093/bioinformatics/btn080>`_ with all the extra guff from that tool stripped out, leaving just the bare essentials required for simulation.
 
+.. warning::
+
+   Most of the documentation currently found here is a bit behind some recent developments in CSim. Notably, with `Google Code bidding farewell <http://google-opensource.blogspot.com/2015/03/farewell-to-google-code.html>`_, the primary repository for the CSim code has moved to `GitHub <http://github.com>`_, and can currently be found here: https://github.com/nickerso/csim.
+
 .. toctree::
    :maxdepth: 1
    :titlesonly:
