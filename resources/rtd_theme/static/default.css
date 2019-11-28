@@ -194,6 +194,14 @@ div.heading-block div.main-title {
 	top: 50%;
 	transform: translateY(-50%);*/
 }
+div.heading-block div.main-title-sponsor-support {
+    color: black;
+	font-size: 1em;
+}
+div.heading-block div.main-title-sponsor {
+    color: #ca0813;
+	font-size: 2em;
+}
 
 div.heading-block div.sub-title {
 	color: black;
