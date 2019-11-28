@@ -1,4 +1,5 @@
 # ignore the eclipse files
 .pydevproject
 .project
+.idea
 

@@ -1,5 +1,7 @@
 .. _getIntroduction:
 
+iNephron builds on top of the GET framework described below.
+
 The GET Framework
 =================
 

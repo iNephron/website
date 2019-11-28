@@ -1,1 +1,1 @@
-This is the `GET <http://get.readthedocs.org>`_ website project, providing the documenation for GET and related projects. The live version of this documentation is available at: http://get.readthedocs.org/.
+This is the `iNephron <https://get.readthedocs.io>`_ website project, providing the documentation for the various iNephron projects. The live version of this documentation is available at: https://get.readthedocs.io/.

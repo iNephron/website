@@ -3,11 +3,11 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-======================
-The GET Suite of Tools
-======================
+===========================================
+iNephron - The reproducible virtual nephron
+===========================================
 
-GET is a suite of tools based around the concept of modelling generalised epithelial transport. The GET framework makes extensive use of `CellML <http://cellml.org>`_ and `SED-ML <http://sed-ml.org>`_, and so this suite includes some generic software for working with these standards which are included here. Demonstrations of the ideas and tools being promoted by the GET project are also listed below.
+iNephron is a collection of software tools and computational models being developed at the Auckland Bioengineering Institute based on the concept of reproducible modelling of generalised epithelial transport in the context of the nephron. iNephron makes extensive use of `CellML <https://cellml.org>`_ and `SED-ML <https://sed-ml.org>`_, and so our tools include some generic software for working with these standards which are included here. Demonstrations of the ideas and tools being promoted by the iNephron project are also listed below.
 
 Contents:
 
